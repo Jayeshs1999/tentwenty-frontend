@@ -32,11 +32,6 @@ Live demo Link:
 
 - https://tentwenty-frontend-lsofpcpqr-jayeshs-projects-773360a4.vercel.app
 
-## Submission
-
-- **Submit via GitHub:** Push your code to a public or private repository and share access as required.
-- **Demo:** Include a link to your deployed app in your submission (e.g., Vercel/Netlify).
-
 ## Assumptions/Notes
 
 - The app is built for modern browsers.
