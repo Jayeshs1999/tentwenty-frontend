@@ -30,7 +30,7 @@
 
 Live demo Link:
 
-- https://tentwenty-frontend-lsofpcpqr-jayeshs-projects-773360a4.vercel.app/timesheet
+- https://tentwenty-frontend-lsofpcpqr-jayeshs-projects-773360a4.vercel.app
 
 ## Submission
 
