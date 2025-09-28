@@ -28,9 +28,9 @@
 
 ## Working Online Demo
 
-You can deploy this app to [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/) for a live demo. Example:
+Live demo Link:
 
-- [Vercel deployment guide](https://vitejs.dev/guide/static-deploy.html#vercel)
+- https://tentwenty-frontend-lsofpcpqr-jayeshs-projects-773360a4.vercel.app/timesheet
 
 ## Submission
 
@@ -46,7 +46,7 @@ You can deploy this app to [Vercel](https://vercel.com/) or [Netlify](https://ne
 
 ## Time Spent
 
-- Approximately 3 hours (coding, setup, and documentation).
+- Approximately 5 hours (coding, setup, and documentation).
 
 ---
 
