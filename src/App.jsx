@@ -18,7 +18,9 @@ function App() {
       {userInfo && <Header />}
       <main
         className="bg-[#f0f8ff] overflow-auto"
-        style={{ height: "calc(100vh - 60px)" }}
+        style={{
+          height: getUserInfo()?.email ? "calc(100vh - 60px)" : "100vh",
+        }}
       >
         <Outlet />
         {userInfo && <Footer />}

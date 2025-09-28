@@ -43,7 +43,7 @@ const Login = () => {
   };
 
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2 h-[100vh]">
       <div>
         <div className="flex flex-col justify-center h-[100vh] text-white p-[72px]">
           <form onSubmit={handleSubmit}>
