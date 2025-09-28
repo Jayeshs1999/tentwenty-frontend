@@ -14,7 +14,7 @@ const Login = () => {
 
   useEffect(() => {
     if (userInfo?.email) {
-      navigate("/dashboard");
+      navigate("/timesheet");
     }
   }, [userInfo?.email, navigate]);
 
@@ -35,7 +35,7 @@ const Login = () => {
       } else {
         sessionStorage.setItem("userInfo", JSON.stringify(data));
       }
-      navigate("/dashboard");
+      navigate("/timesheet");
     } catch (err) {
       console.log(err);
       alert(err.message);

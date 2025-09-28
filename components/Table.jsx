@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Table = ({ columns, data }) => {
+const Table = ({ columns, data, handleActionClick }) => {
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -51,7 +51,10 @@ const Table = ({ columns, data }) => {
                     >
                       {!col.chips ? (
                         col.accessor === "action" ? (
-                          <span className="text-[#1C64F2] cursor-pointer">
+                          <span
+                            className="text-[#1C64F2] cursor-pointer"
+                            onClick={() => handleActionClick(row)}
+                          >
                             {row[col.accessor]}
                           </span>
                         ) : (

@@ -1,9 +1,4 @@
-import {
-  users,
-  timesheets,
-  timesheetEntries,
-  timesheetListData,
-} from "./mockData";
+import { users, timesheets, timesheetListData } from "./mockData";
 
 const simulateNetwork = (data, delay = 500) =>
   new Promise((resolve) => setTimeout(() => resolve(data), delay));
@@ -31,7 +26,7 @@ export const getTimesheets = async (userId) => {
 
 // GET /timesheetEntries/:week
 export const getTimesheetEntries = async (week) => {
-  const data = timesheetEntries[week] || [];
+  const data = timesheetListData[week] || [];
   return simulateNetwork(data);
 };
 

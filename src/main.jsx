@@ -9,8 +9,9 @@ import {
   RouterProvider,
 } from "react-router";
 import Login from "./pages/Login.jsx";
-import Dashboard from "./pages/Dashboard.jsx";
 import PrivateRoute from "../components/PrivateRoute.jsx";
+import WeekTimesheet from "./pages/WeekTimesheet.jsx";
+import Timesheet from "./pages/Timesheet.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,7 +19,8 @@ const router = createBrowserRouter(
       <Route index element={<Login />} />
       <Route path="/login" element={<Login />} />
       <Route path="" element={<PrivateRoute />}>
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/timesheet" element={<Timesheet />} />
+        <Route path="/week-timesheet/:id" element={<WeekTimesheet />} />
       </Route>
       <Route path="*" element={<div>404 Not Found</div>} />
     </Route>

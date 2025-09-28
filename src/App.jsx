@@ -17,9 +17,8 @@ function App() {
     <>
       {userInfo && <Header />}
       <main
-        className="bg-[#f0f8ff] overflow-auto 
-                   
-                   min-h-[calc(100vh-60px)]"
+        className="bg-[#f0f8ff] overflow-auto"
+        style={{ height: "calc(100vh - 60px)" }}
       >
         <Outlet />
         {userInfo && <Footer />}

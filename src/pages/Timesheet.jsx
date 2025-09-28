@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Table from "../../components/Table";
 import { getTimesheetListData } from "../../api";
+import { useNavigate } from "react-router";
 
-const Dashboard = () => {
+const Timesheet = () => {
+  const navigate = useNavigate();
   const [allData, setAllData] = useState([]); // store original
   const [data, setData] = useState([]); // store filtered
 
@@ -78,10 +80,17 @@ const Dashboard = () => {
             ))}
           </select>
         </div>
-        <Table columns={columns} data={data} />
+        <Table
+          columns={columns}
+          data={data}
+          handleActionClick={(data) => {
+            navigate(`/week-timesheet/${data.no}`);
+            console.log("rod:0", data);
+          }}
+        />
       </div>
     </div>
   );
 };
 
-export default Dashboard;
+export default Timesheet;
