@@ -30,7 +30,7 @@
 
 Live demo Link:
 
-- https://tentwenty-frontend-lsofpcpqr-jayeshs-projects-773360a4.vercel.app
+- https://tentwenty-frontend-2xvx0dybm-jayeshs-projects-773360a4.vercel.app/
 
 ## Assumptions/Notes
 
