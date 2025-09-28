@@ -1,3 +1,55 @@
+# tentwenty-frontend-app
+
+## Setup Instructions
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Jayeshs1999/tentwenty-frontend.git
+   cd tentwenty-frontend-app
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Run the development server:**
+   ```sh
+   npm run dev
+   ```
+4. **View the app:**
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Frameworks/Libraries Used
+
+- [React](https://react.dev/) (v19)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+
+## Working Online Demo
+
+You can deploy this app to [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/) for a live demo. Example:
+
+- [Vercel deployment guide](https://vitejs.dev/guide/static-deploy.html#vercel)
+
+## Submission
+
+- **Submit via GitHub:** Push your code to a public or private repository and share access as required.
+- **Demo:** Include a link to your deployed app in your submission (e.g., Vercel/Netlify).
+
+## Assumptions/Notes
+
+- The app is built for modern browsers.
+- No backend integration; all data is mocked in `mockData.js`.
+- Private routes are handled via `PrivateRoute.jsx`.
+- ESLint is configured for code quality.
+
+## Time Spent
+
+- Approximately 3 hours (coding, setup, and documentation).
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
