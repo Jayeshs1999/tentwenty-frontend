@@ -11,14 +11,14 @@ function App() {
 
   useEffect(() => {
     setUserInfo(getUserInfo()?.email);
-  }, [navigate]);
+  }, [getUserInfo()?.email, navigate]);
 
   return (
     <>
       {userInfo && <Header />}
       <main
         className="bg-[#f0f8ff] overflow-auto 
-                   px-4 sm:px-6 md:px-10 lg:px-20 xl:px-35 
+                   
                    min-h-[calc(100vh-60px)]"
       >
         <Outlet />

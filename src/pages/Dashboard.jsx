@@ -46,7 +46,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="pt-[27px]">
+    <div className="pt-[27px] px-4 sm:px-6 md:px-10 lg:px-20 xl:px-35 ">
       <div className="bg-white p-6 rounded-[8px]">
         <h1 className="text-[24px] font-semibold text-[#111827] pb-6">
           Your Timesheets
